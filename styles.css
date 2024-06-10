@@ -1,0 +1,81 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: hsl(176.54deg 98.73% 30.98%);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: smaller;
+  display: flex;
+}
+
+.skin {
+  color: hsl(354.81deg 65.85% 75.88%);
+}
+
+.enlaces ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 15px;
+  list-style-type: none;
+  justify-content: center;
+}
+
+li {
+  color: hsl(176.54deg 98.73% 30.98%);
+  font-size: 10px;
+  font-family: "Quicksand", sans-serif;
+  font-style: normal;
+  margin: 5px;
+  display: flex;
+  align-items: end;
+}
+
+.logos {
+  display: flex;
+  justify-content: right;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.regalo {
+  position: absolute;
+  top: 92%;
+  left: 2%;
+  height: auto;
+  z-index: 10;
+}
+
+.mensaje {
+  position: absolute;
+  top: 92%;
+  left: 94%;
+  height: auto;
+  z-index: 10;
+}
+
+@media (max-width: 768px) {
+  .enlaces ul {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  select {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  select {
+    display: none;
+  }
+}
